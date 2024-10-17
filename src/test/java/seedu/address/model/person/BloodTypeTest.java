@@ -28,6 +28,7 @@ public class BloodTypeTest {
         assertFalse(BloodType.isValidBloodType("")); // empty string
         assertFalse(BloodType.isValidBloodType(" ")); // spaces only
         assertFalse(BloodType.isValidBloodType("A")); // without the Rhesus factor
+        assertFalse(BloodType.isValidBloodType("C")); // Not type A, B, O, or AB
 
         // valid blood types
         assertTrue(BloodType.isValidBloodType("A+"));
@@ -38,6 +39,8 @@ public class BloodTypeTest {
         assertTrue(BloodType.isValidBloodType("B-"));
         assertTrue(BloodType.isValidBloodType("O+"));
         assertTrue(BloodType.isValidBloodType("O-"));
+
+        
     }
 
     @Test
