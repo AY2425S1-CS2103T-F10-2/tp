@@ -1129,7 +1129,7 @@ testers are expected to do more *exploratory* testing.
 
 </div>
 
-#### Launch and shutdown
+#### Launch and Shutdown
 
 1. Initial launch.
 
@@ -1178,7 +1178,7 @@ testers are expected to do more *exploratory* testing.
    * **Test case:** Corrupt the `data/ClinicConnect.json` file by adding random text to it.
    * **Expected:** The app should ignore the corrupted file and create a new empty `data/ClinicConnect.json` file when launchd and interacted with.
 
-#### Getting help: `help`
+#### Getting Help: `help`
 
 **Command:** `help`
 
